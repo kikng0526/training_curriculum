@@ -15,11 +15,7 @@ class CalendarsController < ApplicationController
   private
 
   def plan_params
-<<<<<<< Updated upstream
     params.require(:calendars).permit(:date) #planを消去しました
-=======
-    params.require(:calendars).permit(:date, :plan)  
->>>>>>> Stashed changes
   end
 
   def getWeek
